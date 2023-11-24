@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>smarthomes | Home</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="shortcut icon" href="./Images/faviconicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
+
+<body>
+    <div class="nav">
+        <div class="logo"><a href="index.html"><img src="Images/SmHmLg..jpg" alt="SmartHomeLogo"></a></div>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="About Us.html">About Us</a></li>
+        <li><a href="properties.html">Properties</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="career.html">Career</a></li>
+        <button class="comic-button">
+        <li><a href="About Us.html#form">Contact Us</a></li>
+          </button>
+    </ul>
+  </div>
+
+
+  
+  <div class="hero" id="hero" >
+    
+    <div class="hero-text">
+    <h1 class="head"> Smart Homes Luxuries </h1><br>
+    <p style="color:white" class="text">Manage Buy Sell Rent/Let </p>
+  </div>
+</div>
+
+
+<div class="properties" id="properties">
+    <h1 style="text-align: center; color:#0e0801c8"><span class="test-span">Latest Listings</span></h1>
+
+    <div class="serch">
+    <div class="search">
+             <h1 style="margin: 20px;">Search by Zip Code, City, State, or Country</h1>
+      
+<form action="search_results.php" method="GET" style="background-color: #8d24247d;
+        border: 1px solid #ccc;
+        border-radius: 15px;
+        display: inline-block;
+        padding: 20px;
+        margin: 20px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);" >
+            <label for="zip-code">Zip Code:</label>
+            <input type="text" id="zip-code" name="zip-code" placeholder="Enter Zip Code">
+      
+
+            <label for="cities">city:</label>
+            <select name="city" id="cities">
+                <option value="Nigeria">Lagos</option>
+                <option value="Nigeria">Abuja</option>
+                <option value="Nigeria">Ibadan</option>
+                <option value="Nigeria">Houston</option>
+                <option value="Nigeria">Sharjah</option>
+                <option value="Nigeria">Dubai</option>
+                <option value="Nigeria">Ajman</option>
+                <option value="Nigeria">Ontario</option>
+                <option value="Nigeria">Vancouver</option>
+                <option value="Nigeria">Sydney</option>
+                <option value="Nigeria">Liverpool</option>
+                <option value="Nigeria">Manchester</option>
+                <option value="Nigeria">Asaba</option>
+                <option value="Nigeria">Oshogbo</option>
+            </select>
+
+
+            <label for="categories">category:</label>
+            <select name="category" id="categories">
+                <option value="Nigeria">All Categories</option>
+                <option value="Nigeria">Buy</option>
+                <option value="Nigeria">Sell</option>
+                <option value="Nigeria">To Let/Lease</option>
+            </select>
+
+
+            <label for="types">Type:</label>
+            <select name="Type" id="types">
+                 <option value="Nigeria">Flat/Apartment</option>
+                <option value="Nigeria">House</option>
+                <option value="Nigeria">Land</option>
+                <option value="Nigeria">Commercial Property</option>
+            </select>
+           
+
+            <label for="states">state:</label>
+            <select name="state" id="states">
+                <option value="Nigeria">Lagos</option>
+                <option value="Nigeria">FCT</option>
+                <option value="Nigeria">Oyo</option>
+                <option value="Nigeria">Texas</option>
+                <option value="Nigeria">Sharjah</option>
+                <option value="Nigeria">Emirate</option>
+                <option value="Nigeria">Ajman</option>
+                <option value="Nigeria">Toronto</option>
+                <option value="Nigeria">Delta</option>
+                <option value="Nigeria">New South Wales</option>
+                <option value="Nigeria">England</option>
+                <option value="Nigeria">Scotland</option>
+                <option value="Nigeria">Wales</option>
+                <option value="Nigeria">Osun</option>
+            </select>
+
+           
+      
+            <label for="countries">Country:</label>
+            <select name="Country" id="countries">
+                <option value="Nigeria">Nigeria</option>
+                <option value="Nigeria">Barbados</option>
+                <option value="Nigeria">The Bahamas</option>
+                <option value="Nigeria">Australia</option>
+                <option value="Nigeria">Croatia</option>
+                <option value="Nigeria">Germany</option>
+                <option value="Nigeria">Georgia</option>
+                <option value="Nigeria">United States</option>
+                <option value="Nigeria">Canada</option>
+                <option value="Nigeria">Australia</option>
+                <option value="Nigeria">United Kingdom</option>
+                <option value="Nigeria">Malaysia</option>
+                <option value="Nigeria">United Arab Emirates</option>
+                <option value="Nigeria">Qatar</option>
+            </select>
+
+
+      
+            <button class="searchbtn" type="submit">Search</button>
+    </form>
+    </div>
+</div>
+      
+    <div class="container">
+        <div class="card">
+            <div class="card-img"><img src="images/house1.jpg" alt="Aparte"></div>
+            <h2 class="product">3 BEDROOM APARTMENT</h2>
+            <p class="details">An Apartment in Banana Island, Ikoyi. En-suite bedrooms with Fully Fitted Kitchen, round the clock security. 24/7 Electricity </p>
+            <a href="properties.html"> <button class="see-more">Click to See more Properties</button></a>
+        </div>
+
+        <div class="card">
+            <div class="card-img"><img src="images/house2.jpg" alt=""></div>
+            <h2 class="product">4 Bedroom Terrace</h2>
+            <p class="details">4 bedroom penthouse with private lift
+                Price 🏷: Price on request</p>
+                <a href="properties.html"> <button class="see-more">Click to See more Properties</button></a>
+        </div>
+
+        <div class="card">
+            <div class="card-img"><img src="images/house3.jpg" alt=""></div>
+            <h2 class="product">5 Bedroom Maisonate</h2>
+            <p class="details">En-suite rooms|Balcony|Ample parking space|Round the clock security|24/7 Power supply|Pool
+                Gym</p>
+               <a href="properties.html"> <button class="see-more">Click to See more Properties</button></a>
+        </div>
+    </div>
+
+
+   
+</div>
+
+<div class="reasons">
+    <table>
+        <tr class="title" style="color: #e4a554;">
+            <th colspan="3">Why Choose Us?</th>
+        </tr>
+        <tr class="reason">
+            <td class="reas" id="td1">
+                <h2 style="color: #62451595;">Long-Term Savings: </h2>
+            
+                <p>Investments in smart home technology can lead to long-term financial benefits through energy savings and increased property value</p>
+                <br><br>
+                <h2 style="color: #62451595;">Resale Value: </h2>
+            
+            <p>These properties tend to attract a broader range of potential buyers, potentially increasing resale value</p>
+            </td>
+            <td class="reas" id="td1">
+                
+                 <img src="Images/comfort.jpg">
+               
+            </td>
+            <td class="reas">
+                <h2 style="color: #62451595;">Comfort: </h2>
+            
+                <p>Automated climate control and lighting create a comfortable and customizable living environment.</p>
+                <br><br>
+                <h2 style="color: #62451595;">Future-Proofing: </h2>
+              
+                <p>Smart homes are prepared for future technology advancements, ensuring they remain relevant and up-to-date</p>
+            </td>
+        </tr>
+    </table>
+</div>
+
+
+
+<div class="testimonials">
+            <h1 class="test-h1"><span class="test-span">Client's Reviews</span></h1>
+    <div class="test-section">
+    <div class="testimonial">
+    <div class="test-content">
+            <img src="images/pix1.png" alt="" class="pix">
+            <p>"After paying my mortgages, property taxes, property management and maintenance fees, I earn about $6,000 per month in passive income from my real estate portfolio Read More>>>"</p>
+            <p class="test-author">@Chrissy</p>
+    </div>
+    </div>
+    <div class="testimonial">
+        <div class="test-content">
+            <img src="images/pix2.png" alt="" class="pix">
+            <p>"Since 2019, I’ve been investing that money into a redevelopment project that is converting eight units into 17, and living off my full-time music earnings...." Read More>>></p>
+            <p class="test-author">@TiwaJamal</p>
+        </div>
+    </div>
+            
+    <div class="testimonial">
+        <div class="test-content">
+            <img src="images/pix3.png" alt="" class="pix">
+            <p>“In 2014, I used $40,000 I’d saved in cash and sold $20,000 worth of stocks to make my first real estate purchase: a $295,000 single-family home from <mark style="background-color: rgb(202, 182, 220);">Smart Homes</mark>. I also took out a loan from a family member for the remaining cost, so I didn’t have to borrow from the bank...” Read More>>></p>
+            <p class="test-author">@Wizzy</p>
+        </div>
+    </div>
+</div>
+    
+
+
+<footer style="margin-top: 30px;">
+    <div class="copy-add">
+               <h3 style="color: black;">Road 3, international airport way Habert Marculay</h3>
+                <p style="color:black;">Email:smarthomes@dele.com</p>
+                <p style="color:black;">Phone: +123-456-7890</p>
+            
+    </div>
+            
+    <div class="social">
+                <h3 style="color: black;">followUs@:</h3><br>
+               <a href="http://www.facebook.com"> <i class="fa-brands fa-facebook fa-xl" style="color: black;"></i></a>
+               <a href="http://www.instagram.com/en"> <i class="fa-brands fa-square-instagram fa-xl" style="color: black;"></i></a>
+               <a href="http://www.twitter.com"> <i class="fa-brands fa-twitter fa-xl" style="color: black;"></i></a>
+               <a href="http://www.telegram.com"> <i class="fa-brands fa-telegram fa-xl" style="color: black;"></i></a>
+               <a href="http://www.youtube.com"> <i class="fa-brands fa-youtube  fa-xl" style="color: black;"></i></a>
+    </div>
+            
+        <a href="#" class="mybtn"><i class="fa-solid fa-circle-arrow-up fa-xl" style="color: black;"></i></a>
+          
+        <p style="color: rgba(4, 27, 12, 0.783); text-align: center; margin-top: 20px;">&copy; copyright_2023 (SmartHomesWorldwide). All Rights Reserved</p>
+
+</footer>
+    
+</div>
+</body>
+</html>
